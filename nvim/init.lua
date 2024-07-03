@@ -10,9 +10,9 @@ local g = vim.g
 opt.compatible = false
 
 -- Enable true colour support
-if fn.has('termguicolors') then
-  opt.termguicolors = true
-end
+-- if fn.has('termguicolors') then
+  -- opt.termguicolors = true
+-- end
 
 vim.cmd.colorscheme "catppuccin"
 
