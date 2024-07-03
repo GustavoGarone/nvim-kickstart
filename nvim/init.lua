@@ -14,8 +14,6 @@ if fn.has('termguicolors') then
   opt.termguicolors = true
 end
 
-cmd.colorscheme "catppuccin"
-
 -- See :h <option> to see what the options do
 
 -- Search down into subfolders
