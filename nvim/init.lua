@@ -27,6 +27,8 @@ opt.number = true
 opt.relativenumber = true
 opt.cursorline = true
 opt.lazyredraw = true
+opt.textwidth= 92
+opt.colorcolumn = 93
 opt.showmatch = true -- Highlight matching parentheses, etc
 opt.incsearch = true
 opt.hlsearch = true
@@ -37,6 +39,7 @@ opt.spelllang = 'en'
 opt.expandtab = true
 opt.tabstop = 4
 opt.softtabstop = 4
+opt.expandtab = true
 opt.shiftwidth = 4
 opt.foldenable = true
 opt.history = 2000
@@ -45,6 +48,7 @@ opt.undofile = true
 opt.splitright = true
 opt.splitbelow = true
 opt.cmdheight = 0
+
 
 opt.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
 
