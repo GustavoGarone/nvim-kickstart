@@ -21,6 +21,8 @@ end
 -- Search down into subfolders
 opt.path = vim.o.path .. '**'
 
+g.slime_target = "kitty"
+
 opt.number = true
 opt.relativenumber = true
 opt.cursorline = true
@@ -33,9 +35,9 @@ opt.spell = true
 opt.spelllang = 'en'
 
 opt.expandtab = true
-opt.tabstop = 2
-opt.softtabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
 opt.foldenable = true
 opt.history = 2000
 opt.nrformats = 'bin,hex' -- 'octal'
@@ -97,7 +99,6 @@ vim.diagnostic.config {
 g.editorconfig = true
 
 vim.opt.colorcolumn = '100'
-
 -- Native plugins
 cmd.filetype('plugin', 'indent', 'on')
 cmd.packadd('cfilter') -- Allows filtering the quickfix list with :cfdo
