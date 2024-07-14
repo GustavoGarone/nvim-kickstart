@@ -31,6 +31,7 @@ with final.pkgs.lib; let
     catppuccin-nvim #kitty!
 
     nvim-treesitter.withAllGrammars
+    julia-vim # Julia utils for vim
     luasnip # snippets | https://github.com/l3mon4d3/luasnip/
     # nvim-cmp (autocompletion) and extensions
     nvim-cmp # https://github.com/hrsh7th/nvim-cmp
