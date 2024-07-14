@@ -31,7 +31,6 @@ with final.pkgs.lib; let
     catppuccin-nvim #kitty!
 
     nvim-treesitter.withAllGrammars
-    julia-vim # Julia utils for vim
     luasnip # snippets | https://github.com/l3mon4d3/luasnip/
     # nvim-cmp (autocompletion) and extensions
     nvim-cmp # https://github.com/hrsh7th/nvim-cmp
@@ -64,6 +63,8 @@ with final.pkgs.lib; let
     nvim-tree-lua #nvim-tree 
     # ^ UI
     # language support
+    julia-vim # Julia utils for vim
+    vim-julia-cell
     # ^ language support
     # navigation/editing enhancement plugins
     vim-unimpaired # predefined ] and [ navigation keymaps | https://github.com/tpope/vim-unimpaired/
@@ -74,6 +75,7 @@ with final.pkgs.lib; let
     # ^ navigation/editing enhancement plugins
     # Useful utilities
     nvim-unception # Prevent nested neovim sessions | nvim-unception
+    vim-slime
     # ^ Useful utilities
     # libraries that other plugins depend on
     sqlite-lua
