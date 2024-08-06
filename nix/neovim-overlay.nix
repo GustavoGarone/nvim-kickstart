@@ -65,6 +65,9 @@ with final.pkgs.lib; let
     # language support
     julia-vim # Julia utils for vim
     vim-julia-cell
+    jedi-vim # Python
+    python-mode
+
     # ^ language support
     # navigation/editing enhancement plugins
     vim-unimpaired # predefined ] and [ navigation keymaps | https://github.com/tpope/vim-unimpaired/
