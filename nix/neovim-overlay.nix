@@ -67,7 +67,6 @@ with final.pkgs.lib; let
     vim-julia-cell
     jedi-vim # Python
     python-mode
-    null-ls
 
     # ^ language support
     # navigation/editing enhancement plugins
