@@ -64,6 +64,7 @@ with final.pkgs.lib; let
     # ^ UI
     # language support
     quarto-nvim
+    otter-nvim
     julia-vim # Julia utils for vim
     vim-julia-cell
     jedi-vim # Python
