@@ -63,6 +63,7 @@ with final.pkgs.lib; let
     nvim-tree-lua #nvim-tree 
     # ^ UI
     # language support
+    quarto-nvim
     julia-vim # Julia utils for vim
     vim-julia-cell
     jedi-vim # Python
