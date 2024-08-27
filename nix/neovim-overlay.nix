@@ -67,7 +67,6 @@ with final.pkgs.lib; let
     otter-nvim
     julia-vim # Julia utils for vim
     vim-julia-cell
-    jedi-vim # Python
     python-mode
 
     # ^ language support
