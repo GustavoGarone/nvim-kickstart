@@ -67,7 +67,6 @@ with final.pkgs.lib; let
     quarto-nvim
     otter-nvim
     haskell-tools-nvim
-    haskell-debug-adapter
     julia-vim # Julia utils for vim
     vim-julia-cell
     python-mode
