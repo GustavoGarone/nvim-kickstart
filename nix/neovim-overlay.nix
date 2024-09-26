@@ -66,7 +66,7 @@ with final.pkgs.lib; let
     # language support
     quarto-nvim
     otter-nvim
-    haskell-language-server
+    haskell-tools-nvim
     haskell-debug-adapter
     julia-vim # Julia utils for vim
     vim-julia-cell
