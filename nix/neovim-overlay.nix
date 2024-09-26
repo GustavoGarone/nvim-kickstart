@@ -54,6 +54,7 @@ with final.pkgs.lib; let
     telescope-nvim # https://github.com/nvim-telescope/telescope.nvim/
     telescope-fzy-native-nvim # https://github.com/nvim-telescope/telescope-fzy-native.nvim
     # telescope-smart-history-nvim # https://github.com/nvim-telescope/telescope-smart-history.nvim
+    hoogle
     # ^ telescope and extensions
     # UI
     lualine-nvim # Status line | https://github.com/nvim-lualine/lualine.nvim/
@@ -65,6 +66,8 @@ with final.pkgs.lib; let
     # language support
     quarto-nvim
     otter-nvim
+    haskell-language-server
+    haskell-debug-adapter
     julia-vim # Julia utils for vim
     vim-julia-cell
     python-mode
@@ -72,6 +75,8 @@ with final.pkgs.lib; let
     # ^ language support
     # navigation/editing enhancement plugins
     vim-unimpaired # predefined ] and [ navigation keymaps | https://github.com/tpope/vim-unimpaired/
+    fast-tags
+    nvim-dap
     eyeliner-nvim # Highlights unique characters for f/F and t/T motions | https://github.com/jinh0/eyeliner.nvim
     nvim-surround # https://github.com/kylechui/nvim-surround/
     nvim-treesitter-textobjects # https://github.com/nvim-treesitter/nvim-treesitter-textobjects/
