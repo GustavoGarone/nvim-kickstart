@@ -3,6 +3,14 @@ local fn = vim.fn
 local opt = vim.o
 local g = vim.g
 
+-- Neovide
+if g.neovide then
+    g.neovide_cursor_vfx_mode = "pixiedust"
+    g.neoide_floating_blur_amount_x = 2.0
+    g.neoide_floating_blur_amount_y = 2.0
+    opt.guifont = "JetBrainsMono Nerd Font:h13"
+end
+
 -- <leader> key. Defaults to `\`. Some people prefer space.
 g.mapleader = ' '
 g.maplocalleader = ' '
